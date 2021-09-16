@@ -58,6 +58,13 @@
   <ItemGroup>
     <Compile Include="Assets/Scripts/InputManager.cs" />
     <Compile Include="Assets/Scripts/PlayerController.cs" />
+    <Compile Include="Assets/Hero Knight - Pixel Art/ColorSwap/ColorSwap_HeroKnight.cs" />
+    <Compile Include="Assets/Hero Knight - Pixel Art/Demo/HeroKnight.cs" />
+    <Compile Include="Assets/Hero Knight - Pixel Art/Demo/DestroyEvent_HeroKnight.cs" />
+    <Compile Include="Assets/Hero Knight - Pixel Art/Demo/Sensor_HeroKnight.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets/Hero Knight - Pixel Art/ColorSwap/Sprites-ColorSwap.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -651,8 +658,8 @@
     <Reference Include="UnityEditor.UI">
       <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.InputSystem">
-      <HintPath>Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
@@ -660,8 +667,8 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
